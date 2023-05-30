@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/main.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,37 +20,37 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="main-nav">
-          <a class="webstudio" href="index.html"
-            >Web<span class="studio-h">Studio</span></a
+        <div class="header__main-nav">
+          <a class="header__webstudio" href="index.html"
+            >Web<span class="header__studio-text">Studio</span></a
           >
-          <ul class="menu">
+          <ul class="header__menu">
             <li>
-              <div class="underline-special">
-                <a class="links-special" href="index.html">Agencja</a>
+              <div class="header__underline-special">
+                <a class="header__links-special" href="index.html">Agencja</a>
               </div>
             </li>
             <li>
-              <div class="underline">
-                <a class="links" href="./portfolio.html">Portfolio</a>
+              <div class="header__underline">
+                <a class="header__links" href="./portfolio.html">Portfolio</a>
               </div>
             </li>
             <li>
-              <div class="underline">
-                <a class="links" href="#">Kontakt</a>
+              <div class="header__underline">
+                <a class="header__links" href="#">Kontakt</a>
               </div>
             </li>
           </ul>
-          <div class="nav-contacts">
-            <a class="mail-h" href="mailto:info@devstudio.com"
-              ><svg class="mail-icon">
+          <div class="header__nav-contacts">
+            <a class="header__mail" href="mailto:info@devstudio.com"
+              ><svg class="header__mail-icon">
                 <use href="./images/icons.svg#icon-envelope "></use>
               </svg>
               info@devstudio.com</a
             >
 
-            <a class="tel" href="tel:+48111111111"
-              ><svg class="tel-icon">
+            <a class="header__tel" href="tel:+48111111111"
+              ><svg class="header__tel-icon">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +48 111 111 111</a
@@ -61,55 +61,57 @@
     </header>
 
     <main>
-      <section class="s1">
-        <h1 class="h1">Efektywne rozwiązania dla waszego biznesu</h1>
+      <section class="section-one">
+        <h1 class="section-one__text">
+          Efektywne rozwiązania dla waszego biznesu
+        </h1>
 
-        <button class="button-main-page" data-modal-open>
-          <span class="button-text">Zamów usługe</span>
+        <button class="section-one__button" data-modal-open>
+          <span class="section-one__button-text">Zamów usługe</span>
         </button>
       </section>
       <section class="container">
-        <div class="sec2">
-          <ul class="ul-main1">
+        <div class="section-two">
+          <ul class="section-two__list">
             <li>
-              <svg class="icons-1">
+              <svg class="section-two__icons">
                 <use href="./images/icons.svg#icon-antenna-1"></use>
               </svg>
-              <h3 class="Ipsum-h">LOREM IPSUM</h3>
-              <p class="Lorem-P">
+              <h3 class="section-two__text">LOREM IPSUM</h3>
+              <p class="section-two__paragraf">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <svg class="icons-1">
+              <svg class="section-two__icons">
                 <use href="./images/icons.svg#icon-clock-1"></use>
               </svg>
-              <h3 class="Ipsum-h">LOREM IPSUM</h3>
-              <p class="Lorem-P">
+              <h3 class="section-two__text">LOREM IPSUM</h3>
+              <p class="section-two__paragraf">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <svg class="icons-1">
+              <svg class="section-two__icons">
                 <use href="./images/icons.svg#icon-diagram-1"></use>
               </svg>
-              <h3 class="Ipsum-h">LOREM IPSUM</h3>
-              <p class="Lorem-P">
+              <h3 class="section-two__text">LOREM IPSUM</h3>
+              <p class="section-two__paragraf">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
 
             <li>
-              <svg class="icons-1">
+              <svg class="section-two__icons">
                 <use href="./images/icons.svg#icon-astronaut-1"></use>
               </svg>
-              <h3 class="Ipsum-h">LOREM IPSUM</h3>
-              <p class="Lorem-P">
+              <h3 class="section-two__text">LOREM IPSUM</h3>
+              <p class="section-two__paragraf">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -118,35 +120,35 @@
         </div>
       </section>
       <section class="container">
-        <div class="sec3">
-          <h2 class="offer">Czym się zajmujemy</h2>
-          <ul class="ul-main2">
+        <div class="section-three">
+          <h2 class="section-three__main-text">Czym się zajmujemy</h2>
+          <ul class="section-three__list">
             <li>
-              <div class="img-sec-3">
+              <div class="section-three__img">
                 <img
                   alt="keyboard"
                   src="images/1.jpg"
                   width="370"
                   height="294"
                 />
-                <div class="text-img-sec-3">
-                  <p class="text-sec-3">aplikacje komputerowe</p>
+                <div class="section-three__img-description">
+                  <p class="section-three__paragraf">aplikacje komputerowe</p>
                 </div>
               </div>
             </li>
             <li>
-              <div class="img-sec-3">
+              <div class="section-three__img">
                 <img alt="IPhone" src="images/2.jpg" width="370" height="294" />
-                <div class="text-img-sec-3">
-                  <p class="text-sec-3">aplikacje mobilne</p>
+                <div class="section-three__img-description">
+                  <p class="section-three__paragraf">aplikacje mobilne</p>
                 </div>
               </div>
             </li>
             <li>
-              <div class="img-sec-3">
+              <div class="section-three__img">
                 <img alt="IPad" src="images/3.jpg" width="370" height="294" />
-                <div class="text-img-sec-3">
-                  <p class="text-sec-3">rozwiązania graficzne</p>
+                <div class="section-three__img-description">
+                  <p class="section-three__paragraf">rozwiązania graficzne</p>
                 </div>
               </div>
             </li>
@@ -154,19 +156,19 @@
         </div>
       </section>
 
-      <section class="sec4">
+      <section class="section-four">
         <div class="container">
-          <h2 class="team">Nasz zespół</h2>
-          <ul class="ul-main">
-            <li class="img-sec3">
+          <h2 class="section-four__main-text">Nasz zespół</h2>
+          <ul class="section-four__list">
+            <li class="section-four__img">
               <img alt="Man" src="images/4.jpg" width="270" height="260" />
-              <div class="text-img-index">
-                <h4 class="name">John Doe</h4>
-                <p class="job">Product Designer</p>
+              <div class="section-four__index">
+                <h4 class="section-four__name">John Doe</h4>
+                <p class="section-four__job">Product Designer</p>
               </div>
-              <div class="team-description">
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+              <div class="section-four__team-description">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-instagram-2"
                       width="20"
@@ -174,8 +176,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-twitter-1"
                       width="20"
@@ -183,8 +185,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-facebook-1"
                       width="20"
@@ -192,8 +194,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-linkedin-1"
                       width="20"
@@ -203,15 +205,15 @@
                 </a>
               </div>
             </li>
-            <li class="img-sec3">
+            <li class="section-four__img">
               <img alt="Woman" src="images/5.jpg" width="270" height="260" />
-              <div class="text-img-index">
-                <h4 class="name">John Doe</h4>
-                <p class="job">Frontend Developer</p>
+              <div class="section-four__index">
+                <h4 class="section-four__name">John Doe</h4>
+                <p class="section-four__job">Frontend Developer</p>
               </div>
-              <div class="team-description">
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+              <div class="section-four__team-description">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-instagram-2"
                       width="20"
@@ -219,8 +221,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-twitter-1"
                       width="20"
@@ -228,8 +230,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-facebook-1"
                       width="20"
@@ -237,8 +239,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-linkedin-1"
                       width="20"
@@ -248,15 +250,15 @@
                 </a>
               </div>
             </li>
-            <li class="img-sec3">
+            <li class="section-four__img">
               <img alt="Man" src="images/6.jpg" width="270" height="260" />
-              <div class="text-img-index">
-                <h4 class="name">John Doe</h4>
-                <p class="job">Marketing</p>
+              <div class="section-four__index">
+                <h4 class="section-four__name">John Doe</h4>
+                <p class="section-four__job">Marketing</p>
               </div>
-              <div class="team-description">
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+              <div class="section-four__team-description">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-instagram-2"
                       width="20"
@@ -264,8 +266,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-twitter-1"
                       width="20"
@@ -273,8 +275,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-facebook-1"
                       width="20"
@@ -282,8 +284,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-linkedin-1"
                       width="20"
@@ -293,15 +295,15 @@
                 </a>
               </div>
             </li>
-            <li class="img-sec3">
+            <li class="section-four__img">
               <img alt="Man" src="images/7.jpg" width="270" height="260" />
-              <div class="text-img-index">
-                <h4 class="name">John Doe</h4>
-                <p class="job">UI Designer</p>
+              <div class="section-four__index">
+                <h4 class="section-four__name">John Doe</h4>
+                <p class="section-four__job">UI Designer</p>
               </div>
-              <div class="team-description">
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+              <div class="section-four__team-description">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-instagram-2"
                       width="20"
@@ -309,8 +311,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-twitter-1"
                       width="20"
@@ -318,8 +320,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-facebook-1"
                       width="20"
@@ -327,8 +329,8 @@
                     ></use>
                   </svg>
                 </a>
-                <a class="link-description" href="#">
-                  <svg class="team-links">
+                <a class="section-four__link-description" href="#">
+                  <svg class="section-four__team-links">
                     <use
                       href="./images/icons.svg#icon-linkedin-1"
                       width="20"
@@ -342,47 +344,47 @@
         </div>
       </section>
       <section class="container">
-        <div class="sec5">
-          <h2 class="team-1">Nasi klienci</h2>
-          <ul class="ul-main-3">
+        <div class="section-five">
+          <h2 class="section-five__main-text">Nasi klienci</h2>
+          <ul class="section-five__list">
             <li>
-              <a class="company" href="#">
-                <svg class="icons-2">
+              <a class="section-five__company" href="#">
+                <svg class="section-five__icons">
                   <use href="./images/icons.svg#icon-Logo"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="company" href="#">
-                <svg class="icons-2">
+              <a class="section-five__company" href="#">
+                <svg class="section-five__icons">
                   <use href="./images/icons.svg#icon-Logo-1"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="company" href="#">
-                <svg class="icons-2">
+              <a class="section-five__company" href="#">
+                <svg class="section-five__icons">
                   <use href="./images/icons.svg#icon-Logo-2"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="company" href="#">
-                <svg class="icons-2">
+              <a class="section-five__company" href="#">
+                <svg class="section-five__icons">
                   <use href="./images/icons.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="company" href="#">
-                <svg class="icons-2">
+              <a class="section-five__company" href="#">
+                <svg class="section-five__icons">
                   <use href="./images/icons.svg#icon-Logo-4"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="company" href="#">
-                <svg class="icons-2">
+              <a class="section-five__company" href="#">
+                <svg class="section-five__icons">
                   <use href="./images/icons.svg#icon-Logo-5"></use>
                 </svg>
               </a>
@@ -393,34 +395,35 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="description-f">
-          <ul class="list-f">
+        <div class="footer__description">
+          <ul class="footer__list">
             <li>
-              <a class="webstudio-f" href="index.html"
-                ><span>Web</span><span class="studio-f">Studio</span></a
+              <a class="footer__webstudio" href="index.html"
+                ><span>Web</span
+                ><span class="footer__title-text">Studio</span></a
               >
             </li>
             <li>
-              <address class="address">
+              <address class="footer__address">
                 m. Warszawa, Aleje Jerozolimskie 21
               </address>
             </li>
             <li>
-              <a class="link-footer" href="mailto:info@devstudio.com"
+              <a class="footer__mail" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
 
             <li>
-              <a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
+              <a class="footer__tel" href="tel:+48111111111">+48 111 111 111</a>
             </li>
           </ul>
 
-          <div class="socialmedia">
-            <h4 class="text-footer">dołącz do nas</h4>
-            <div class="text-socialmedia">
-              <a class="socialmedia-description" href="#">
-                <svg class="socialmedia-links">
+          <div class="footer__socialmedia">
+            <h4 class="footer__title">dołącz do nas</h4>
+            <div class="footer__text">
+              <a class="footer__socialmedia-description" href="#">
+                <svg class="footer__links">
                   <use
                     href="./images/icons.svg#icon-instagram-2"
                     width="20"
@@ -428,8 +431,8 @@
                   ></use>
                 </svg>
               </a>
-              <a class="socialmedia-description" href="#">
-                <svg class="socialmedia-links">
+              <a class="footer__socialmedia-description" href="#">
+                <svg class="footer__links">
                   <use
                     href="./images/icons.svg#icon-twitter-1"
                     width="20"
@@ -437,8 +440,8 @@
                   ></use>
                 </svg>
               </a>
-              <a class="socialmedia-description" href="#">
-                <svg class="socialmedia-links">
+              <a class="footer__socialmedia-description" href="#">
+                <svg class="footer__links">
                   <use
                     href="./images/icons.svg#icon-facebook-1"
                     width="20"
@@ -446,8 +449,8 @@
                   ></use>
                 </svg>
               </a>
-              <a class="socialmedia-description" href="#">
-                <svg class="socialmedia-links">
+              <a class="footer__socialmedia-description" href="#">
+                <svg class="footer__links">
                   <use
                     href="./images/icons.svg#icon-linkedin-1"
                     width="20"
@@ -457,18 +460,18 @@
               </a>
             </div>
           </div>
-          <div class="mail-box">
-            <h4 class="text-footer">zapisz się do newslettera</h4>
-            <div class="help-box">
+          <div class="footer__mail-box">
+            <h4 class="footer__title">zapisz się do newslettera</h4>
+            <div class="footer__help-box">
               <input
-                class="input-mail"
+                class="footer__input-mail"
                 type="email"
                 name="email"
                 placeholder="E-mail"
               />
-              <button type="submit" class="mail-button-f">
+              <button type="submit" class="footer__mail-button">
                 zapisz się
-                <svg class="icon-mail-f" width="24" height="24">
+                <svg class="footer__icon" width="24" height="24">
                   <use href="images/icons.svg#icon-icon-send"></use>
                 </svg>
               </button>

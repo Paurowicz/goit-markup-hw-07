@@ -1,0 +1,93 @@
+.section-four {
+  background: #f5f4fa;
+  padding: 94px 0 94px 0;
+
+  &__main-text {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+  }
+
+  &__img {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  &__index {
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__job {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+  }
+
+  &__team-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+  }
+
+  &__link-description {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    background: #ffffff;
+  }
+
+  &__team-links {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #afb1b8;
+  }
+
+  &__link-description:hover,
+  &__link-description:focus {
+    border: 1px solid var(#2196f3);
+    cursor: pointer;
+    background-color: #2196f3;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__link-description:hover svg,
+  &__link-description:focus svg {
+    fill: #ffffff;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

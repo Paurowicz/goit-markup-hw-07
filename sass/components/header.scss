@@ -1,0 +1,157 @@
+.header {
+  border-bottom: 1px solid #ececec;
+
+  &__menu {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 46px;
+    align-items: center;
+  }
+
+  &__main-nav {
+    display: flex;
+    margin: 24px 0 25px 0;
+    gap: 93px;
+  }
+
+  &__nav-contacts {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-left: 238px;
+  }
+
+  &__webstudio {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+    text-decoration: none;
+    display: flex;
+  }
+
+  &__studio-text {
+    color: #212121;
+  }
+
+  &__links {
+    text-decoration: none;
+    list-style-type: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+
+  &__mail {
+    text-decoration: none;
+    color: #757575;
+    fill: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+
+  &__mail-icon {
+    height: 16px;
+    width: 21px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+  }
+
+  &__tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    fill: #757575;
+    text-decoration: none;
+  }
+
+  &__tel-icon {
+    height: 16px;
+    width: 24px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+  }
+
+  &__tel:hover,
+  &__tel:focus {
+    color: #2196f3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__tel:hover svg,
+  &__tel:focus svg {
+    fill: #2196f3;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__links:hover,
+  &__links:focus {
+    color: #2196f3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__links-special {
+    color: #2196f3;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+
+  &__mail:hover,
+  &__mail:focus {
+    color: #2196f3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__mail:hover svg,
+  &__mail:focus svg {
+    fill: #2196f3;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__underline-special {
+    position: relative;
+  }
+
+  &__underline-special::before {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196f3;
+    display: block;
+    margin-top: 46px;
+    transform: translateY(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__underline {
+    position: relative;
+  }
+
+  &__underline:hover::after {
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196f3;
+    display: block;
+    margin-top: 28px;
+    transform: translateY(0);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

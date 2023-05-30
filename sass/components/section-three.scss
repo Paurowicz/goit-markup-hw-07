@@ -1,0 +1,52 @@
+.section-three {
+  padding: 94px 0 94px 0;
+
+  &__main-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 0px;
+  }
+
+  &__img {
+    float: left;
+
+    position: relative;
+  }
+
+  &__img-description {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 27px 90px 27px 90px;
+    text-align: center;
+    top: 88%;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  &__paragraf {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}
